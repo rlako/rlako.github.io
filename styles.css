@@ -1,0 +1,111 @@
+body {
+  font-family: 'Inconsolata', monospace;
+  font-size: 24px;
+  background: url(assets/topography.png) top center repeat;
+}
+
+body a {
+  color: #ff0099;
+}
+
+header {
+  background-color: #333333;
+  padding: 10px 0;
+}
+
+.center-box {
+    margin: 0 auto;
+	  max-width: 80%;
+}
+
+header .center-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo a {
+  display: inline-block;
+}
+
+#logo a img {
+  width: 50px;
+  height: auto;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li a {
+  margin: 0 30px;
+  text-transform: uppercase;;
+  display: block;
+  font-size: 22px;
+  padding: 10px 0;
+}
+
+#intro{
+  padding-top: 100px;
+}
+
+h1 {
+  font-family: 'Andada Pro', serif;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#job-title {
+  font-family: 'Andada Pro', serif;
+  font-size: 30px;
+  color: #ff0099;
+  margin-bottom: 30px;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.divider {
+  width:  10%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.divider span {
+  display: block;
+  background: black;
+  height:2px;
+  width: 10%;
+}
+
+h2 {
+  font-family: 'Andada Pro', serif;
+  font-size: 35px;
+  text-align: center;
+  font-weight:  bold;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-family: 'Andada Pro', serif;
+  font-size: 30px;
+  font-weight:  bold;
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;;
+}
+
+footer p {
+  margin: 0;
+}
